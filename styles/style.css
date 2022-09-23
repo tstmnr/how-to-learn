@@ -1,12 +1,3 @@
-* {
-  outline: 1px solid red;
-}
-
-h1, h2, h3, h4, h5, h6, a, ul, li, p {
-  margin: 0;
-  padding: 0;
-}
-
 .page {
   min-width: 1100px;
   /* мы ещё не умеем делать мобильную версию сайта, */
@@ -17,6 +8,11 @@ h1, h2, h3, h4, h5, h6, a, ul, li, p {
   /* выше для экранов больше 1600px отцентрировали весь контент */
   font-family: 'Helvetica Neue', Arial, sans-serif;
   color: #000;
+}
+
+h1, h2, h3, h4, h5, h6, a, ul, li, p {
+  margin: 0;
+  padding: 0;
 }
 
 .header {
@@ -45,7 +41,6 @@ h1, h2, h3, h4, h5, h6, a, ul, li, p {
   margin-left: 64px;
   align-self: center;
   width: 730px;
-  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   font-weight: 600;
@@ -295,21 +290,12 @@ h1, h2, h3, h4, h5, h6, a, ul, li, p {
 
 .footer__column-links {
   margin: 20px 0 16px;
-}
-
-.footer__column_content_social {
-  justify-content: flex-start;
-}
-
-
-.footer__column-links {
   display: flex;
   flex-direction: column;
 }
 
-.footer__column-link {
-  color: white;
-  text-decoration: none;
+.footer__column_content_social {
+  justify-content: flex-start;
 }
 
 .footer__author {
@@ -329,6 +315,8 @@ h1, h2, h3, h4, h5, h6, a, ul, li, p {
   line-height: 30px;
   font-size: 18px;
   font-weight: 400;
+  color: white;
+  text-decoration: none;
 }
 
 .footer__column-link:not(:last-child) {
