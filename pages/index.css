@@ -15,8 +15,8 @@
 @import url(../blocks/content/content.css);
 /*Подключение стилей логотипа*/
 @import url(../blocks/logo/logo.css);
-@import url(../blocks/logo/_place_header/logo_place_header.css);
-@import url(../blocks/logo/_place_footer/logo_place_footer.css);
+@import url(../blocks/logo/_place/logo_place_header.css);
+@import url(../blocks/logo/_place/logo_place_footer.css);
 /*Подключение стилей блока description*/
 @import url(../blocks/description/description.css);
 @import url(../blocks/two-columns/two-columns.css);

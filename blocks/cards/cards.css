@@ -1,9 +1,9 @@
 .cards {
-    margin: 60px auto 0;
-    padding: 0;
-    max-width: 920px;
-    display: grid;
-    grid-template-columns: repeat(3, 240px);
-    grid-column-gap: 100px;
-    grid-row-gap: 60px;
-  }
+  margin: 60px auto 0;
+  padding: 0;
+  max-width: 920px;
+  display: grid;
+  grid-template-columns: repeat(3, 240px);
+  grid-column-gap: 100px;
+  grid-row-gap: 60px;
+}
